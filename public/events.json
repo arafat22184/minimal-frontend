@@ -3,108 +3,929 @@
     "id": "6527c7d2e0b5f8a7c9d1e2f3",
     "title": "Summer Music Festival",
     "type": "Music Concert",
-    "date": "June 15, 2025",
-    "time": "7:00 PM - 11:00 PM",
-    "location": "Central Park, New York",
-    "flight": "11 PM (BER > JFK)"
+    "eventInfo": {
+      "date": "June 15, 2025",
+      "time": "7:00 PM - 11:00 PM",
+      "location": "Central Park, New York",
+      "arrivalInfo": "North entrance, collect credentials at VIP gate, meet Artist Liaison at main stage",
+      "dressingRoom": "Private air-conditioned trailer"
+    },
+    "travelIn": {
+      "flightNo": "Flight BA269",
+      "from": "London [LHR]",
+      "to": "Los Angeles [LAX]",
+      "travelDateTime": "14:20 - 25 July",
+      "landingDateTime": "17:35 - 25 July"
+    },
+    "travelOut": {
+      "flightNo": "Flight BA268",
+      "from": "Los Angeles [LAX]",
+      "to": "London [LHR]",
+      "travelDateTime": "19:20 - 28 July",
+      "landingDateTime": "13:35 - 29 July"
+    },
+    "hotelDetails": {
+      "name": "Marriott Downtown",
+      "roomType": "Deluxe King Room",
+      "facilities": "Breakfast included, pool access",
+      "checkInTime": "15:00 - 25 July",
+      "checkOutTime": "12:00 - 29 July",
+      "location": "Sheikh Zayed Road, Dubai, UAE"
+    },
+    "dinner": {
+      "name": "Zuma Dubai",
+      "date": "28 July, 19:00",
+      "location": "Sheikh Zayed Road, Dubai, UAE"
+    },
+    "riderInfo": {
+      "technicalRider": [
+        "32-channel mixing console",
+        "Full drum kit with DW hardware",
+        "4x Shure SM58 microphones",
+        "LED stage lighting package",
+        "30-minute setup time required"
+      ],
+      "hospitality": [
+        "Fresh fruit platter and bottled water",
+        "Hot coffee and herbal tea selection",
+        "Vegetarian meal options for 6 people",
+        "Clean towels and private changing area",
+        "Temperature controlled green room"
+      ],
+      "note": "We won't have a multicam setup. We will have a videographer and will share the videos with you. Edited files won't be available 24 hours post show as the team is working another event."
+    },
+    "travelingParty": [
+      {
+        "name": "Celina Aoun",
+        "position": "Tour Manager",
+        "contactNumber": "+971553594146"
+      },
+      {
+        "name": "Alexender Robin",
+        "position": "Tour Guide",
+        "contactNumber": "+971553594123"
+      }
+    ],
+    "guestList": [
+      {
+        "name": "Maria Roun",
+        "status": "AAA",
+        "contactNumber": "+971553524496"
+      },
+      {
+        "name": "John Willson",
+        "status": "VIP",
+        "contactNumber": "+971553524239"
+      }
+    ]
   },
   {
-    "id": "6527c8a1e0b5f8a7c9d1e2f4",
-    "title": "Tech Innovators Conference",
-    "type": "Conference",
-    "date": "July 3, 2025",
-    "time": "9:00 AM - 6:00 PM",
-    "location": "Moscone Center, San Francisco",
-    "flight": "8 AM (LHR > SFO)"
+    "id": "7528d8e3f1c6f9b8d0e2f3g4",
+    "title": "Tech Innovation Summit",
+    "type": "Corporate Conference",
+    "eventInfo": {
+      "date": "August 22, 2025",
+      "time": "9:00 AM - 5:00 PM",
+      "location": "Moscone Center, San Francisco",
+      "arrivalInfo": "Main entrance, registration desk on level 2, meet Event Coordinator at keynote hall",
+      "dressingRoom": "Speaker ready room"
+    },
+    "travelIn": {
+      "flightNo": "Flight UA815",
+      "from": "New York [JFK]",
+      "to": "San Francisco [SFO]",
+      "travelDateTime": "08:00 - 21 August",
+      "landingDateTime": "11:30 - 21 August"
+    },
+    "travelOut": {
+      "flightNo": "Flight UA890",
+      "from": "San Francisco [SFO]",
+      "to": "New York [JFK]",
+      "travelDateTime": "18:00 - 23 August",
+      "landingDateTime": "06:30 - 24 August"
+    },
+    "hotelDetails": {
+      "name": "Westin St. Francis",
+      "roomType": "Executive Suite",
+      "facilities": "Business center access, gym",
+      "checkInTime": "15:00 - 21 August",
+      "checkOutTime": "12:00 - 23 August",
+      "location": "Union Square, San Francisco"
+    },
+    "dinner": {
+      "name": "Gary Danko",
+      "date": "22 August, 19:30",
+      "location": "North Point St, San Francisco"
+    },
+    "riderInfo": {
+      "technicalRider": [
+        "HD projector with 16:9 screen",
+        "Wireless lapel microphone",
+        "Confidence monitor",
+        "High-speed internet connection",
+        "Presentation clicker"
+      ],
+      "hospitality": [
+        "Bottled water and energy drinks",
+        "Assorted sandwiches and snacks",
+        "Dedicated green room",
+        "Wi-Fi access codes"
+      ],
+      "note": "Presentation slides must be submitted 24 hours in advance. Technical rehearsal scheduled for 8:00 AM day of event."
+    },
+    "travelingParty": [
+      {
+        "name": "Sarah Chen",
+        "position": "Event Manager",
+        "contactNumber": "+14155551234"
+      }
+    ],
+    "guestList": [
+      {
+        "name": "Michael Torres",
+        "status": "Speaker",
+        "contactNumber": "+14155559876"
+      },
+      {
+        "name": "Lisa Wang",
+        "status": "VIP",
+        "contactNumber": "+14155555678"
+      }
+    ]
   },
   {
-    "id": "6527c8cde0b5f8a7c9d1e2f5",
-    "title": "Global Startup Summit",
-    "type": "Business Summit",
-    "date": "August 10, 2025",
-    "time": "10:00 AM - 4:00 PM",
-    "location": "Expo Center, Dubai",
-    "flight": "10 PM (DAC > DXB)"
+    "id": "8529e9f4g2d7h0c1f3g4h5i",
+    "title": "Broadway Night Gala",
+    "type": "Theater Performance",
+    "eventInfo": {
+      "date": "September 5, 2025",
+      "time": "8:00 PM - 10:30 PM",
+      "location": "Majestic Theatre, Broadway",
+      "arrivalInfo": "Stage door on 44th Street, check in with stage manager",
+      "dressingRoom": "Private dressing room #3"
+    },
+    "travelIn": {
+      "flightNo": "Flight DL487",
+      "from": "Chicago [ORD]",
+      "to": "New York [LGA]",
+      "travelDateTime": "13:45 - 4 September",
+      "landingDateTime": "16:20 - 4 September"
+    },
+    "travelOut": {
+      "flightNo": "Flight DL512",
+      "from": "New York [LGA]",
+      "to": "Chicago [ORD]",
+      "travelDateTime": "14:00 - 7 September",
+      "landingDateTime": "16:45 - 7 September"
+    },
+    "hotelDetails": {
+      "name": "The Roosevelt Hotel",
+      "roomType": "Superior King Room",
+      "facilities": "24-hour room service",
+      "checkInTime": "15:00 - 4 September",
+      "checkOutTime": "12:00 - 7 September",
+      "location": "Madison Avenue, New York"
+    },
+    "dinner": {
+      "name": "Sardi's Restaurant",
+      "date": "5 September, 18:00",
+      "location": "West 44th Street, New York"
+    },
+    "riderInfo": {
+      "technicalRider": [
+        "Full theatrical lighting rig",
+        "Wireless headset microphones",
+        "Orchestra pit monitoring",
+        "Dressing room mirror with lights",
+        "Quick change area backstage"
+      ],
+      "hospitality": [
+        "Hot tea with honey and lemon",
+        "Assorted throat lozenges",
+        "Steam inhaler in dressing room",
+        "Fresh fruit and vegetable platter"
+      ],
+      "note": "Sound check at 16:00. Full dress rehearsal at 17:00. Curtain call at 22:15."
+    },
+    "travelingParty": [
+      {
+        "name": "Robert Johnson",
+        "position": "Production Manager",
+        "contactNumber": "+16465551234"
+      },
+      {
+        "name": "Emily Watson",
+        "position": "Stage Manager",
+        "contactNumber": "+16465559876"
+      }
+    ],
+    "guestList": [
+      {
+        "name": "David Broadway",
+        "status": "VIP",
+        "contactNumber": "+16465555678"
+      },
+      {
+        "name": "Jennifer Lopez",
+        "status": "AAA",
+        "contactNumber": "+16465554321"
+      }
+    ]
   },
   {
-    "id": "6527c8fde0b5f8a7c9d1e2f6",
-    "title": "Culinary World Expo",
-    "type": "Food Festival",
-    "date": "September 5, 2025",
-    "time": "11:00 AM - 9:00 PM",
-    "location": "Olympia Hall, London",
-    "flight": "6 AM (JFK > LHR)"
-  },
-  {
-    "id": "6527c92be0b5f8a7c9d1e2f7",
-    "title": "International Book Fair",
-    "type": "Book Exhibition",
-    "date": "October 2, 2025",
-    "time": "10:00 AM - 8:00 PM",
-    "location": "Frankfurt Messe, Germany",
-    "flight": "9 PM (CDG > FRA)"
-  },
-  {
-    "id": "6527c94be0b5f8a7c9d1e2f8",
-    "title": "Global Art Week",
+    "id": "9530f5g6h3e8i1d4h5i6j7k",
+    "title": "Art Basel Miami",
     "type": "Art Exhibition",
-    "date": "October 20, 2025",
-    "time": "12:00 PM - 9:00 PM",
-    "location": "Louvre Museum, Paris",
-    "flight": "1 PM (LHR > CDG)"
+    "eventInfo": {
+      "date": "December 7, 2025",
+      "time": "10:00 AM - 8:00 PM",
+      "location": "Miami Beach Convention Center",
+      "arrivalInfo": "Artist entrance on Hall C, collect badge at registration",
+      "dressingRoom": "Artist lounge"
+    },
+    "travelIn": {
+      "flightNo": "Flight AA1234",
+      "from": "Los Angeles [LAX]",
+      "to": "Miami [MIA]",
+      "travelDateTime": "09:15 - 6 December",
+      "landingDateTime": "16:45 - 6 December"
+    },
+    "travelOut": {
+      "flightNo": "Flight AA5678",
+      "from": "Miami [MIA]",
+      "to": "Los Angeles [LAX]",
+      "travelDateTime": "17:30 - 9 December",
+      "landingDateTime": "20:15 - 9 December"
+    },
+    "hotelDetails": {
+      "name": "Fontainebleau Miami Beach",
+      "roomType": "Ocean View Suite",
+      "facilities": "Beach access, spa discount",
+      "checkInTime": "16:00 - 6 December",
+      "checkOutTime": "11:00 - 9 December",
+      "location": "Miami Beach, Florida"
+    },
+    "dinner": {
+      "name": "Joe's Stone Crab",
+      "date": "7 December, 19:00",
+      "location": "Washington Avenue, Miami Beach"
+    },
+    "riderInfo": {
+      "technicalRider": [
+        "Professional gallery lighting",
+        "Secure display cases",
+        "Climate control monitoring",
+        "Security personnel during setup",
+        "Installation tools provided"
+      ],
+      "hospitality": [
+        "Sparkling water and fresh juices",
+        "Gourmet cheese platter",
+        "Private viewing area",
+        "Catalog and promotional materials"
+      ],
+      "note": "Installation day December 6 from 14:00-18:00. Artist talk scheduled for December 8 at 15:00."
+    },
+    "travelingParty": [
+      {
+        "name": "Carlos Mendez",
+        "position": "Gallery Director",
+        "contactNumber": "+13055551234"
+      }
+    ],
+    "guestList": [
+      {
+        "name": "Isabella Rossi",
+        "status": "Collector",
+        "contactNumber": "+13055559876"
+      },
+      {
+        "name": "Thomas Wright",
+        "status": "Curator",
+        "contactNumber": "+13055555678"
+      }
+    ]
   },
   {
-    "id": "6527c975e0b5f8a7c9d1e2f9",
-    "title": "Future of AI Symposium",
-    "type": "Tech Event",
-    "date": "November 10, 2025",
-    "time": "9:30 AM - 5:00 PM",
-    "location": "MIT Campus, Boston",
-    "flight": "7 AM (ORD > BOS)"
+    "id": "a531g6h7i4f9j2e5i6j7k8l",
+    "title": "Comedy Central Live",
+    "type": "Comedy Show",
+    "eventInfo": {
+      "date": "October 18, 2025",
+      "time": "9:00 PM - 11:00 PM",
+      "location": "The Comedy Store, Hollywood",
+      "arrivalInfo": "Main entrance, green room downstairs",
+      "dressingRoom": "Shared green room"
+    },
+    "travelIn": {
+      "flightNo": "Flight WN3456",
+      "from": "Las Vegas [LAS]",
+      "to": "Los Angeles [LAX]",
+      "travelDateTime": "16:00 - 18 October",
+      "landingDateTime": "17:15 - 18 October"
+    },
+    "travelOut": {
+      "flightNo": "Flight WN7890",
+      "from": "Los Angeles [LAX]",
+      "to": "Las Vegas [LAS]",
+      "travelDateTime": "12:00 - 19 October",
+      "landingDateTime": "13:15 - 19 October"
+    },
+    "hotelDetails": {
+      "name": "Hollywood Roosevelt",
+      "roomType": "Deluxe Room",
+      "facilities": "Pool access, historic hotel",
+      "checkInTime": "15:00 - 18 October",
+      "checkOutTime": "11:00 - 19 October",
+      "location": "Hollywood Boulevard, Los Angeles"
+    },
+    "dinner": {
+      "name": "Musso & Frank Grill",
+      "date": "18 October, 18:30",
+      "location": "Hollywood Boulevard, Los Angeles"
+    },
+    "riderInfo": {
+      "technicalRider": [
+        "Stool and microphone stand",
+        "Monitor speaker facing performer",
+        "Basic stage lighting",
+        "Sound check 30 minutes before show"
+      ],
+      "hospitality": [
+        "Bottled water at room temperature",
+        "Assorted snacks and chips",
+        "Comfortable seating area",
+        "Wi-Fi access"
+      ],
+      "note": "Warm-up act performs 9:00-9:30. Headliner 9:30-10:45. Meet and greet after show for 15 minutes."
+    },
+    "travelingParty": [
+      {
+        "name": "Mike Rodriguez",
+        "position": "Club Manager",
+        "contactNumber": "+18185551234"
+      }
+    ],
+    "guestList": [
+      {
+        "name": "Chris Rockwell",
+        "status": "VIP",
+        "contactNumber": "+18185559876"
+      },
+      {
+        "name": "Amy Silverstein",
+        "status": "Industry",
+        "contactNumber": "+18185555678"
+      }
+    ]
   },
   {
-    "id": "6527c9a0e0b5f8a7c9d1e2fa",
-    "title": "Digital Nomad Meetup",
-    "type": "Networking Event",
-    "date": "November 25, 2025",
-    "time": "4:00 PM - 9:00 PM",
-    "location": "Bali, Indonesia",
-    "flight": "5 PM (SIN > DPS)"
+    "id": "b632h7i8j5g0k3f6j7k8l9m",
+    "title": "Film Festival Premiere",
+    "type": "Film Screening",
+    "eventInfo": {
+      "date": "November 12, 2025",
+      "time": "7:30 PM - 10:00 PM",
+      "location": "TCL Chinese Theatre",
+      "arrivalInfo": "Red carpet entrance, press line, then to green room",
+      "dressingRoom": "Private suite with makeup area"
+    },
+    "travelIn": {
+      "flightNo": "Flight AC789",
+      "from": "Toronto [YYZ]",
+      "to": "Los Angeles [LAX]",
+      "travelDateTime": "10:30 - 11 November",
+      "landingDateTime": "13:15 - 11 November"
+    },
+    "travelOut": {
+      "flightNo": "Flight AC890",
+      "from": "Los Angeles [LAX]",
+      "to": "Toronto [YYZ]",
+      "travelDateTime": "14:00 - 14 November",
+      "landingDateTime": "21:45 - 14 November"
+    },
+    "hotelDetails": {
+      "name": "Beverly Hills Hotel",
+      "roomType": "Bungalow Suite",
+      "facilities": "Private patio, 24-hour butler",
+      "checkInTime": "16:00 - 11 November",
+      "checkOutTime": "12:00 - 14 November",
+      "location": "Sunset Boulevard, Beverly Hills"
+    },
+    "dinner": {
+      "name": "Spago Beverly Hills",
+      "date": "12 November, 21:30",
+      "location": "Canon Drive, Beverly Hills"
+    },
+    "riderInfo": {
+      "technicalRider": [
+        "Digital cinema package ready",
+        "Q&A microphone setup",
+        "Photo call area with backdrop",
+        "Press interview room"
+      ],
+      "hospitality": [
+        "Champagne and sparkling water",
+        "Gourmet canapés selection",
+        "Private after-party access",
+        "Gift bag with luxury items"
+      ],
+      "note": "Red carpet arrivals 18:30-19:15. Screening begins 19:30 sharp. Q&A session immediately following screening. After-party at 21:30."
+    },
+    "travelingParty": [
+      {
+        "name": "Sophie Laurent",
+        "position": "Publicist",
+        "contactNumber": "+18185551234"
+      },
+      {
+        "name": "James Cameron",
+        "position": "Director",
+        "contactNumber": "+18185559876"
+      }
+    ],
+    "guestList": [
+      {
+        "name": "Leonardo DiCaprio",
+        "status": "Celebrity",
+        "contactNumber": "+18185555678"
+      },
+      {
+        "name": "Jennifer Lawrence",
+        "status": "Celebrity",
+        "contactNumber": "+18185554321"
+      }
+    ]
   },
   {
-    "id": "6527c9c8e0b5f8a7c9d1e2fb",
-    "title": "World Health Forum",
-    "type": "Medical Conference",
-    "date": "December 3, 2025",
-    "time": "8:00 AM - 5:30 PM",
-    "location": "Geneva Convention Center, Switzerland",
-    "flight": "10 PM (JFK > GVA)"
+    "id": "c733i8j9k6h1l4g7k8l9m0n",
+    "title": "Corporate Leadership Retreat",
+    "type": "Business Conference",
+    "eventInfo": {
+      "date": "March 15, 2025",
+      "time": "8:00 AM - 6:00 PM",
+      "location": "Ritz-Carlton, Laguna Beach",
+      "arrivalInfo": "Main lobby, conference registration desk",
+      "dressingRoom": "Speaker preparation room"
+    },
+    "travelIn": {
+      "flightNo": "Flight UA456",
+      "from": "New York [JFK]",
+      "to": "Orange County [SNA]",
+      "travelDateTime": "14:00 - 14 March",
+      "landingDateTime": "17:30 - 14 March"
+    },
+    "travelOut": {
+      "flightNo": "Flight UA789",
+      "from": "Orange County [SNA]",
+      "to": "New York [JFK]",
+      "travelDateTime": "18:00 - 16 March",
+      "landingDateTime": "23:45 - 16 March"
+    },
+    "hotelDetails": {
+      "name": "Ritz-Carlton Laguna Beach",
+      "roomType": "Ocean View Room",
+      "facilities": "Spa access, golf course",
+      "checkInTime": "16:00 - 14 March",
+      "checkOutTime": "12:00 - 16 March",
+      "location": "Laguna Beach, California"
+    },
+    "dinner": {
+      "name": "Studio at Montage",
+      "date": "15 March, 19:00",
+      "location": "Laguna Beach, California"
+    },
+    "riderInfo": {
+      "technicalRider": [
+        "Wireless presentation clicker",
+        "Dual monitor setup",
+        "Recording equipment for sessions",
+        "Whiteboards and markers"
+      ],
+      "hospitality": [
+        "Continental breakfast spread",
+        "Coffee station with barista",
+        "Working lunch provided",
+        "Afternoon snack break"
+      ],
+      "note": "Keynote presentation at 9:00 AM. Breakout sessions 11:00-12:30. Working lunch with roundtable discussions. Team building activity at 16:00."
+    },
+    "travelingParty": [
+      {
+        "name": "Mark Thompson",
+        "position": "CEO",
+        "contactNumber": "+19495551234"
+      },
+      {
+        "name": "Lisa Park",
+        "position": "Executive Assistant",
+        "contactNumber": "+19495559876"
+      }
+    ],
+    "guestList": [
+      {
+        "name": "Robert Chen",
+        "status": "Executive",
+        "contactNumber": "+19495555678"
+      },
+      {
+        "name": "Sarah Johnson",
+        "status": "Partner",
+        "contactNumber": "+19495554321"
+      }
+    ]
   },
   {
-    "id": "6527c9eae0b5f8a7c9d1e2fc",
-    "title": "Eco Future Summit",
-    "type": "Environmental Summit",
-    "date": "December 15, 2025",
-    "time": "9:00 AM - 4:00 PM",
-    "location": "Oslo Spektrum, Norway",
-    "flight": "11 PM (CPH > OSL)"
+    "id": "d834j9k0l7i2m5h8l9m0n1o",
+    "title": "Jazz & Blues Festival",
+    "type": "Music Festival",
+    "eventInfo": {
+      "date": "July 22, 2025",
+      "time": "4:00 PM - 11:00 PM",
+      "location": "Grant Park, Chicago",
+      "arrivalInfo": "Artist entrance on Michigan Avenue, production office",
+      "dressingRoom": "Air-conditioned trailer"
+    },
+    "travelIn": {
+      "flightNo": "Flight AA345",
+      "from": "New Orleans [MSY]",
+      "to": "Chicago [ORD]",
+      "travelDateTime": "10:00 - 21 July",
+      "landingDateTime": "12:30 - 21 July"
+    },
+    "travelOut": {
+      "flightNo": "Flight AA678",
+      "from": "Chicago [ORD]",
+      "to": "New Orleans [MSY]",
+      "travelDateTime": "13:00 - 23 July",
+      "landingDateTime": "15:30 - 23 July"
+    },
+    "hotelDetails": {
+      "name": "Chicago Marriott Downtown",
+      "roomType": "Club Level Room",
+      "facilities": "Lounge access, city views",
+      "checkInTime": "15:00 - 21 July",
+      "checkOutTime": "12:00 - 23 July",
+      "location": "Magnificent Mile, Chicago"
+    },
+    "dinner": {
+      "name": "Gibson's Bar & Steakhouse",
+      "date": "22 July, 23:30",
+      "location": "Rush Street, Chicago"
+    },
+    "riderInfo": {
+      "technicalRider": [
+        "Grand piano tuned to A440",
+        "Drum kit with cymbals",
+        "Bass amplifier and DI box",
+        "Vocal microphones with stands",
+        "Monitor wedges with engineer"
+      ],
+      "hospitality": [
+        "Southern-style comfort food",
+        "Iced tea and lemonade",
+        "Hot coffee station",
+        "Fresh towels and cooling fans"
+      ],
+      "note": "Sound check at 15:00. Performance time 19:30-20:45. Jam session with other artists possible after show."
+    },
+    "travelingParty": [
+      {
+        "name": "Marcus Johnson",
+        "position": "Band Leader",
+        "contactNumber": "+17735551234"
+      },
+      {
+        "name": "Tina Davis",
+        "position": "Vocalist",
+        "contactNumber": "+17735559876"
+      }
+    ],
+    "guestList": [
+      {
+        "name": "Bill Evans",
+        "status": "Industry",
+        "contactNumber": "+17735555678"
+      },
+      {
+        "name": "Ella Fitzgerald",
+        "status": "VIP",
+        "contactNumber": "+17735554321"
+      }
+    ]
   },
   {
-    "id": "6527ca0de0b5f8a7c9d1e2fd",
-    "title": "Winter Sports Gala",
-    "type": "Sports Event",
-    "date": "January 12, 2026",
-    "time": "5:00 PM - 11:00 PM",
-    "location": "Aspen Ski Resort, Colorado",
-    "flight": "8 AM (SEA > DEN)"
+    "id": "e935k0l1m8j3n6i9m0n1o2p",
+    "title": "Fashion Week Runway",
+    "type": "Fashion Show",
+    "eventInfo": {
+      "date": "February 14, 2025",
+      "time": "2:00 PM - 4:00 PM",
+      "location": "Spring Studios, New York",
+      "arrivalInfo": "Loading dock entrance, check in with production",
+      "dressingRoom": "Model dressing area with stations"
+    },
+    "travelIn": {
+      "flightNo": "Flight DL123",
+      "from": "Paris [CDG]",
+      "to": "New York [JFK]",
+      "travelDateTime": "20:00 - 12 February",
+      "landingDateTime": "23:00 - 12 February"
+    },
+    "travelOut": {
+      "flightNo": "Flight DL456",
+      "from": "New York [JFK]",
+      "to": "Paris [CDG]",
+      "travelDateTime": "19:00 - 16 February",
+      "landingDateTime": "08:30 - 17 February"
+    },
+    "hotelDetails": {
+      "name": "The Standard High Line",
+      "roomType": "Loft Suite",
+      "facilities": "Meadow restaurant, rooftop bar",
+      "checkInTime": "15:00 - 13 February",
+      "checkOutTime": "12:00 - 16 February",
+      "location": "Meatpacking District, New York"
+    },
+    "dinner": {
+      "name": "Carbone",
+      "date": "14 February, 20:00",
+      "location": "Thompson Street, New York"
+    },
+    "riderInfo": {
+      "technicalRider": [
+        "Runway with proper lighting",
+        "Backstage full-length mirrors",
+        "Dressing room with adequate space",
+        "Hair and makeup stations",
+        "Security for valuable items"
+      ],
+      "hospitality": [
+        "Champagne and mineral water",
+        "Healthy snacks and fruit",
+        "Protein shakes and energy bars",
+        "Steamer and ironing board"
+      ],
+      "note": "Fitting at 10:00 AM. Hair and makeup call 11:00 AM. Run-through at 13:00. Show starts promptly at 14:00."
+    },
+    "travelingParty": [
+      {
+        "name": "Isabelle Laurent",
+        "position": "Designer",
+        "contactNumber": "+19175551234"
+      },
+      {
+        "name": "Marco Valentino",
+        "position": "Creative Director",
+        "contactNumber": "+19175559876"
+      }
+    ],
+    "guestList": [
+      {
+        "name": "Anna Wintour",
+        "status": "Editor",
+        "contactNumber": "+19175555678"
+      },
+      {
+        "name": "Kendall Jenner",
+        "status": "Model",
+        "contactNumber": "+19175554321"
+      }
+    ]
   },
   {
-    "id": "6527ca36e0b5f8a7c9d1e2fe",
-    "title": "New Year Tech Carnival",
-    "type": "Technology Expo",
-    "date": "January 30, 2026",
-    "time": "10:00 AM - 10:00 PM",
-    "location": "Tokyo Big Sight, Japan",
-    "flight": "9 PM (LAX > HND)"
+    "id": "f036l1m2n9k4o7j0n1o2p3q",
+    "title": "Charity Gala Dinner",
+    "type": "Fundraising Event",
+    "eventInfo": {
+      "date": "May 20, 2025",
+      "time": "6:30 PM - 11:00 PM",
+      "location": "Natural History Museum, London",
+      "arrivalInfo": "Cromwell Road entrance, red carpet",
+      "dressingRoom": "Private room in museum"
+    },
+    "travelIn": {
+      "flightNo": "Flight BA178",
+      "from": "Dubai [DXB]",
+      "to": "London [LHR]",
+      "travelDateTime": "08:00 - 19 May",
+      "landingDateTime": "12:15 - 19 May"
+    },
+    "travelOut": {
+      "flightNo": "Flight BA179",
+      "from": "London [LHR]",
+      "to": "Dubai [DXB]",
+      "travelDateTime": "14:00 - 21 May",
+      "landingDateTime": "00:30 - 22 May"
+    },
+    "hotelDetails": {
+      "name": "The Savoy",
+      "roomType": "River View Room",
+      "facilities": "Butler service, American Bar",
+      "checkInTime": "15:00 - 19 May",
+      "checkOutTime": "12:00 - 21 May",
+      "location": "Strand, London"
+    },
+    "dinner": {
+      "name": "Event Catering by Rhubarb",
+      "date": "20 May, 19:30",
+      "location": "Natural History Museum, London"
+    },
+    "riderInfo": {
+      "technicalRider": [
+        "Podium with microphone",
+        "Audiovisual presentation system",
+        "Silent auction display screens",
+        "Background music system"
+      ],
+      "hospitality": [
+        "Pre-dinner champagne reception",
+        "Four-course gourmet dinner",
+        "Wine pairing with each course",
+        "After-dinner cognac and cigars"
+      ],
+      "note": "Cocktail reception 18:30-19:30. Dinner service 19:30. Speech and presentation 20:45. Live auction 21:15. Dancing 21:45-23:00."
+    },
+    "travelingParty": [
+      {
+        "name": "Victoria Beckham",
+        "position": "Host",
+        "contactNumber": "+44205551234"
+      },
+      {
+        "name": "David Beckham",
+        "position": "Co-host",
+        "contactNumber": "+44205559876"
+      }
+    ],
+    "guestList": [
+      {
+        "name": "Prince William",
+        "status": "Royal",
+        "contactNumber": "+44205555678"
+      },
+      {
+        "name": "Emma Watson",
+        "status": "Celebrity",
+        "contactNumber": "+44205554321"
+      }
+    ]
+  },
+  {
+    "id": "g137m2n3o0l5p8k1o2p3q4r",
+    "title": "Sports Awards Ceremony",
+    "type": "Awards Show",
+    "eventInfo": {
+      "date": "June 8, 2025",
+      "time": "6:00 PM - 10:00 PM",
+      "location": "MGM Grand Garden Arena, Las Vegas",
+      "arrivalInfo": "Red carpet entrance, then to backstage holding area",
+      "dressingRoom": "Private suite with TV monitors"
+    },
+    "travelIn": {
+      "flightNo": "Flight WN901",
+      "from": "Miami [MIA]",
+      "to": "Las Vegas [LAS]",
+      "travelDateTime": "12:00 - 7 June",
+      "landingDateTime": "14:45 - 7 June"
+    },
+    "travelOut": {
+      "flightNo": "Flight WN902",
+      "from": "Las Vegas [LAS]",
+      "to": "Miami [MIA]",
+      "travelDateTime": "13:00 - 9 June",
+      "landingDateTime": "19:30 - 9 June"
+    },
+    "hotelDetails": {
+      "name": "Bellagio Hotel & Casino",
+      "roomType": "Fountain View Suite",
+      "facilities": "Spa access, casino credit",
+      "checkInTime": "16:00 - 7 June",
+      "checkOutTime": "11:00 - 9 June",
+      "location": "Las Vegas Strip, Nevada"
+    },
+    "dinner": {
+      "name": "Joël Robuchon",
+      "date": "8 June, 22:30",
+      "location": "MGM Grand, Las Vegas"
+    },
+    "riderInfo": {
+      "technicalRider": [
+        "Teleprompter for speech",
+        "Walk-up music playback",
+        "Multiple camera angles",
+        "Live broadcast capability"
+      ],
+      "hospitality": [
+        "Protein-focused meal options",
+        "Sports drinks and supplements",
+        "Physical therapy area available",
+        "Ice baths and recovery tools"
+      ],
+      "note": "Red carpet 18:00-19:00. Ceremony begins 19:30. After-party at Hakkasan nightclub 22:30. Press interviews throughout evening."
+    },
+    "travelingParty": [
+      {
+        "name": "LeBron James",
+        "position": "Nominee",
+        "contactNumber": "+17025551234"
+      },
+      {
+        "name": "Rich Paul",
+        "position": "Agent",
+        "contactNumber": "+17025559876"
+      }
+    ],
+    "guestList": [
+      {
+        "name": "Serena Williams",
+        "status": "Legend",
+        "contactNumber": "+17025555678"
+      },
+      {
+        "name": "Tom Brady",
+        "status": "VIP",
+        "contactNumber": "+17025554321"
+      }
+    ]
+  },
+  {
+    "id": "h238n3o4p1m6q9l2p3q4r5s",
+    "title": "Electronic Dance Festival",
+    "type": "Music Festival",
+    "eventInfo": {
+      "date": "August 30, 2025",
+      "time": "8:00 PM - 4:00 AM",
+      "location": "Electric Daisy Carnival, Las Vegas",
+      "arrivalInfo": "Artist compound entrance, golf cart transport to stage",
+      "dressingRoom": "Production trailer with lounge"
+    },
+    "travelIn": {
+      "flightNo": "Flight NK345",
+      "from": "Amsterdam [AMS]",
+      "to": "Las Vegas [LAS]",
+      "travelDateTime": "11:00 - 29 August",
+      "landingDateTime": "14:30 - 29 August"
+    },
+    "travelOut": {
+      "flightNo": "Flight NK678",
+      "from": "Las Vegas [LAS]",
+      "to": "Amsterdam [AMS]",
+      "travelDateTime": "17:00 - 31 August",
+      "landingDateTime": "12:30 - 1 September"
+    },
+    "hotelDetails": {
+      "name": "Wynn Las Vegas",
+      "roomType": "Tower Suite",
+      "facilities": "Private pool access, nightclub passes",
+      "checkInTime": "16:00 - 29 August",
+      "checkOutTime": "12:00 - 31 August",
+      "location": "Las Vegas Strip, Nevada"
+    },
+    "dinner": {
+      "name": "SW Steakhouse",
+      "date": "30 August, 18:00",
+      "location": "Wynn Las Vegas"
+    },
+    "riderInfo": {
+      "technicalRider": [
+        "Pioneer CDJ-3000 players x4",
+        "DJM-900 mixer",
+        "Stage fog and CO2 effects",
+        "Lasers and moving lights",
+        "128-input digital console"
+      ],
+      "hospitality": [
+        "Energy drinks and vitamin packets",
+        "Fresh fruit and smoothies",
+        "Post-set recovery foods",
+        "Quiet area for pre-set focus"
+      ],
+      "note": "Set time 00:00-02:00. Backstage meet and greet 23:00. After-party appearance 02:30. Strict no-photo policy 30 minutes before performance."
+    },
+    "travelingParty": [
+      {
+        "name": "Martin Garrix",
+        "position": "DJ/Producer",
+        "contactNumber": "+17025551234"
+      },
+      {
+        "name": "David Guetta",
+        "position": "Support DJ",
+        "contactNumber": "+17025559876"
+      }
+    ],
+    "guestList": [
+      {
+        "name": "Tiesto",
+        "status": "Artist",
+        "contactNumber": "+17025555678"
+      },
+      {
+        "name": "Deadmau5",
+        "status": "Industry",
+        "contactNumber": "+17025554321"
+      }
+    ]
   }
 ]

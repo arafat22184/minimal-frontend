@@ -9,18 +9,18 @@ const EventClockSVG = () => {
       viewBox="0 0 20 20"
       fill="none"
     >
-      <g clip-path="url(#clip0_24964_4299)">
+      <g clipPath="url(#clip0_24964_4299)">
         <path
           d="M10.0001 18.3327C14.6025 18.3327 18.3334 14.6017 18.3334 9.99935C18.3334 5.39698 14.6025 1.66602 10.0001 1.66602C5.39771 1.66602 1.66675 5.39698 1.66675 9.99935C1.66675 14.6017 5.39771 18.3327 10.0001 18.3327Z"
           stroke="#2094F3"
-          stroke-width="1.5"
+          strokeWidth="1.5"
         />
         <path
           d="M7.91675 7.91602L10.8333 10.8323M13.3334 6.66602L9.16675 10.8327"
           stroke="#2094F3"
-          stroke-width="1.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <defs>

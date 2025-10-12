@@ -11,7 +11,7 @@ const Dashboard = () => {
       {/* Main */}
       <div className="bg-[#F9FAFB] flex-1 px-10 py-7">
         <DashboardHeader></DashboardHeader>
-        <Outlet></Outlet>
+        <Outlet />
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router";
 import Dashboard from "../pages/dashboard/Dashboard";
 import Events from "../components/dashboard/Events/Events";
+import EventDetails from "../pages/dashboard/EventDetails";
 
 const router = createBrowserRouter([
   {
@@ -13,7 +14,19 @@ const router = createBrowserRouter([
         loader: () => fetch("/events.json"),
       },
       {
-        path: "/assistant",
+        path: "/event/:id",
+        Component: EventDetails,
+        loader: async ({ params }) => {
+          const res = await fetch("/events.json");
+          const events = await res.json();
+          const event = events.find((ev) => ev.id === params.id);
+
+          if (!event) {
+            throw new Response("Event not found", { status: 404 });
+          }
+
+          return event;
+        },
       },
     ],
   },
