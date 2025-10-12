@@ -6,6 +6,7 @@ const Dashboard = () => {
     <div>
       {/* Sidebar */}
       <h1>I am dashboard</h1>
+      {/* Main */}
       <Outlet></Outlet>
     </div>
   );
