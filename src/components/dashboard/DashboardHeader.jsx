@@ -5,7 +5,7 @@ import profilePicture from "../../assets/dashboard/profile-picture.png";
 
 const DashboardHeader = () => {
   return (
-    <div className="flex justify-between items-center">
+    <div className="flex justify-between items-center pb-5 border-b border-[#DFE3E8] mb-6.5">
       <div>
         <h2 className="text-3xl font-bold text-[#454F5B]">Dashboard</h2>
         <p className="text-[#637381] text-sm">Welcome back Andrei</p>
