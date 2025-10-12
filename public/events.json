@@ -1,0 +1,110 @@
+[
+  {
+    "id": "6527c7d2e0b5f8a7c9d1e2f3",
+    "title": "Summer Music Festival",
+    "type": "Music Concert",
+    "date": "June 15, 2025",
+    "time": "7:00 PM - 11:00 PM",
+    "location": "Central Park, New York",
+    "flight": "11 PM (BER > JFK)"
+  },
+  {
+    "id": "6527c8a1e0b5f8a7c9d1e2f4",
+    "title": "Tech Innovators Conference",
+    "type": "Conference",
+    "date": "July 3, 2025",
+    "time": "9:00 AM - 6:00 PM",
+    "location": "Moscone Center, San Francisco",
+    "flight": "8 AM (LHR > SFO)"
+  },
+  {
+    "id": "6527c8cde0b5f8a7c9d1e2f5",
+    "title": "Global Startup Summit",
+    "type": "Business Summit",
+    "date": "August 10, 2025",
+    "time": "10:00 AM - 4:00 PM",
+    "location": "Expo Center, Dubai",
+    "flight": "10 PM (DAC > DXB)"
+  },
+  {
+    "id": "6527c8fde0b5f8a7c9d1e2f6",
+    "title": "Culinary World Expo",
+    "type": "Food Festival",
+    "date": "September 5, 2025",
+    "time": "11:00 AM - 9:00 PM",
+    "location": "Olympia Hall, London",
+    "flight": "6 AM (JFK > LHR)"
+  },
+  {
+    "id": "6527c92be0b5f8a7c9d1e2f7",
+    "title": "International Book Fair",
+    "type": "Book Exhibition",
+    "date": "October 2, 2025",
+    "time": "10:00 AM - 8:00 PM",
+    "location": "Frankfurt Messe, Germany",
+    "flight": "9 PM (CDG > FRA)"
+  },
+  {
+    "id": "6527c94be0b5f8a7c9d1e2f8",
+    "title": "Global Art Week",
+    "type": "Art Exhibition",
+    "date": "October 20, 2025",
+    "time": "12:00 PM - 9:00 PM",
+    "location": "Louvre Museum, Paris",
+    "flight": "1 PM (LHR > CDG)"
+  },
+  {
+    "id": "6527c975e0b5f8a7c9d1e2f9",
+    "title": "Future of AI Symposium",
+    "type": "Tech Event",
+    "date": "November 10, 2025",
+    "time": "9:30 AM - 5:00 PM",
+    "location": "MIT Campus, Boston",
+    "flight": "7 AM (ORD > BOS)"
+  },
+  {
+    "id": "6527c9a0e0b5f8a7c9d1e2fa",
+    "title": "Digital Nomad Meetup",
+    "type": "Networking Event",
+    "date": "November 25, 2025",
+    "time": "4:00 PM - 9:00 PM",
+    "location": "Bali, Indonesia",
+    "flight": "5 PM (SIN > DPS)"
+  },
+  {
+    "id": "6527c9c8e0b5f8a7c9d1e2fb",
+    "title": "World Health Forum",
+    "type": "Medical Conference",
+    "date": "December 3, 2025",
+    "time": "8:00 AM - 5:30 PM",
+    "location": "Geneva Convention Center, Switzerland",
+    "flight": "10 PM (JFK > GVA)"
+  },
+  {
+    "id": "6527c9eae0b5f8a7c9d1e2fc",
+    "title": "Eco Future Summit",
+    "type": "Environmental Summit",
+    "date": "December 15, 2025",
+    "time": "9:00 AM - 4:00 PM",
+    "location": "Oslo Spektrum, Norway",
+    "flight": "11 PM (CPH > OSL)"
+  },
+  {
+    "id": "6527ca0de0b5f8a7c9d1e2fd",
+    "title": "Winter Sports Gala",
+    "type": "Sports Event",
+    "date": "January 12, 2026",
+    "time": "5:00 PM - 11:00 PM",
+    "location": "Aspen Ski Resort, Colorado",
+    "flight": "8 AM (SEA > DEN)"
+  },
+  {
+    "id": "6527ca36e0b5f8a7c9d1e2fe",
+    "title": "New Year Tech Carnival",
+    "type": "Technology Expo",
+    "date": "January 30, 2026",
+    "time": "10:00 AM - 10:00 PM",
+    "location": "Tokyo Big Sight, Japan",
+    "flight": "9 PM (LAX > HND)"
+  }
+]

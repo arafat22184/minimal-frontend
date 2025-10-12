@@ -10,6 +10,10 @@ const router = createBrowserRouter([
       {
         index: true,
         Component: Events,
+        loader: () => fetch("/events.json"),
+      },
+      {
+        path: "/assistant",
       },
     ],
   },
