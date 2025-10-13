@@ -1,4 +1,5 @@
 import React from "react";
+import "../ScrollBarHidden.css";
 import { Outlet } from "react-router";
 import { Sidebar } from "../components/dashboard/Sidebar";
 import DashboardHeader from "../components/dashboard/DashboardHeader";
@@ -15,7 +16,7 @@ const Dashboard = () => {
           <DashboardHeader />
         </div>
 
-        <div className="h-[calc(100vh-100px)] w-full overflow-y-auto px-6 py-7">
+        <div className="h-[calc(100vh-100px)] w-full overflow-y-auto px-6 py-7 scrollbar-hidden">
           <Outlet />
         </div>
       </div>

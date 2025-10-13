@@ -8,6 +8,7 @@ import Hotel from "../../components/dashboard/EventDetails/Hotel";
 import Dinner from "../../components/dashboard/EventDetails/Dinner";
 import RiderInformation from "../../components/dashboard/EventDetails/RiderInformation";
 import TravelingParty from "../../components/dashboard/EventDetails/TravelingParty";
+import GuestList from "../../components/dashboard/EventDetails/GuestList";
 
 const EventDetails = () => {
   const {
@@ -50,6 +51,9 @@ const EventDetails = () => {
 
         {/* Traveling Party */}
         <TravelingParty travelingParty={travelingParty} />
+
+        {/* Guest List */}
+        <GuestList guestList={guestList} />
       </div>
     </div>
   );
