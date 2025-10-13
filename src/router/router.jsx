@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router";
-import Dashboard from "../pages/dashboard/Dashboard";
 import Events from "../components/dashboard/Events/Events";
 import EventDetails from "../pages/dashboard/EventDetails";
+import Dashboard from "../layout/Dashboard";
 
 const router = createBrowserRouter([
   {
