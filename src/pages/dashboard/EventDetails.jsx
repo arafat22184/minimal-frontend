@@ -7,6 +7,7 @@ import TravelOut from "../../components/dashboard/EventDetails/TravelOut";
 import Hotel from "../../components/dashboard/EventDetails/Hotel";
 import Dinner from "../../components/dashboard/EventDetails/Dinner";
 import RiderInformation from "../../components/dashboard/EventDetails/RiderInformation";
+import TravelingParty from "../../components/dashboard/EventDetails/TravelingParty";
 
 const EventDetails = () => {
   const {
@@ -44,7 +45,11 @@ const EventDetails = () => {
       </div>
       {/* 2nd part */}
       <div className="grid grid-cols-3 gap-12 pt-4 px-8 pb-8 bg-white rounded-2xl">
+        {/* Rider Information */}
         <RiderInformation riderInfo={riderInfo} />
+
+        {/* Traveling Party */}
+        <TravelingParty travelingParty={travelingParty} />
       </div>
     </div>
   );
