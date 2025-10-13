@@ -4,6 +4,8 @@ import { useLoaderData } from "react-router";
 import EventInformation from "../../components/dashboard/EventDetails/EventInformation";
 import TravelIn from "../../components/dashboard/EventDetails/TravelIn";
 import TravelOut from "../../components/dashboard/EventDetails/TravelOut";
+import Hotel from "../../components/dashboard/EventDetails/Hotel";
+import Dinner from "../../components/dashboard/EventDetails/Dinner";
 
 const EventDetails = () => {
   const {
@@ -31,6 +33,12 @@ const EventDetails = () => {
           <TravelIn travelIn={travelIn}></TravelIn>
           {/* Travel Out */}
           <TravelOut travelOut={travelOut}></TravelOut>
+        </div>
+        <div className="space-y-12">
+          {/* Hotel */}
+          <Hotel hotelDetails={hotelDetails} />
+          {/* Dinner */}
+          <Dinner dinner={dinner} />
         </div>
       </div>
       {/* 2nd part */}
