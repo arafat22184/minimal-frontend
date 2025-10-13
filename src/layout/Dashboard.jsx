@@ -11,11 +11,9 @@ const Dashboard = () => {
       </div>
       {/* Main */}
       <div className="bg-[#F9FAFB] flex-1  w-[calc(100%-280px)]">
-        <div className="h-[100px] w-full px-6 py-6">
-          <DashboardHeader />
-        </div>
+        <DashboardHeader />
 
-        <div className="h-[calc(100vh-100px)] w-full overflow-y-auto px-6 py-7 scrollbar-hidden">
+        <div className="h-[calc(100vh-130px)] w-full overflow-y-auto px-6 py-7 scrollbar-hidden">
           <Outlet />
         </div>
       </div>

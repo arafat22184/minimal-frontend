@@ -2,6 +2,8 @@ import { createBrowserRouter } from "react-router";
 import Events from "../components/dashboard/Events/Events";
 import EventDetails from "../pages/dashboard/EventDetails";
 import Dashboard from "../layout/Dashboard";
+import AiAssistant from "../pages/dashboard/AiAssistant";
+import Profile from "../pages/dashboard/Profile";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +29,14 @@ const router = createBrowserRouter([
 
           return event;
         },
+      },
+      {
+        path: "/assistant",
+        Component: AiAssistant,
+      },
+      {
+        path: "/profile",
+        Component: Profile,
       },
     ],
   },
