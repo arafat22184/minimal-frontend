@@ -6,6 +6,7 @@ import TravelIn from "../../components/dashboard/EventDetails/TravelIn";
 import TravelOut from "../../components/dashboard/EventDetails/TravelOut";
 import Hotel from "../../components/dashboard/EventDetails/Hotel";
 import Dinner from "../../components/dashboard/EventDetails/Dinner";
+import RiderInformation from "../../components/dashboard/EventDetails/RiderInformation";
 
 const EventDetails = () => {
   const {
@@ -19,9 +20,9 @@ const EventDetails = () => {
     guestList,
   } = useLoaderData();
   return (
-    <div>
+    <div className="space-y-6.5">
       {/* First part */}
-      <div className="grid grid-cols-3 gap-12">
+      <div className="grid grid-cols-3 gap-12 pt-4 px-8 pb-8 bg-white rounded-2xl">
         {/* Event Information */}
         <EventInformation
           eventInfo={eventInfo}
@@ -42,7 +43,9 @@ const EventDetails = () => {
         </div>
       </div>
       {/* 2nd part */}
-      <div></div>
+      <div className="grid grid-cols-3 gap-12 pt-4 px-8 pb-8 bg-white rounded-2xl">
+        <RiderInformation riderInfo={riderInfo} />
+      </div>
     </div>
   );
 };
