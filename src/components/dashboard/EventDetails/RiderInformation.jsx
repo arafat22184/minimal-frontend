@@ -12,7 +12,9 @@ const RiderInformation = ({ riderInfo }) => {
           <h4 className="text-lg font-medium">Technical Rider</h4>
           <ul className="mt-3 list-disc space-y-2">
             {riderInfo?.technicalRider.map((tr) => (
-              <li className="text-[#637381] ml-6">{tr}</li>
+              <li key={tr} className="text-[#637381] ml-6">
+                {tr}
+              </li>
             ))}
           </ul>
         </div>
@@ -22,7 +24,9 @@ const RiderInformation = ({ riderInfo }) => {
           <h4 className="text-lg font-medium">Technical Rider</h4>
           <ul className="mt-3 list-disc space-y-2">
             {riderInfo?.hospitality.map((hstlity) => (
-              <li className="text-[#637381] ml-6">{hstlity}</li>
+              <li key={hstlity} className="text-[#637381] ml-6">
+                {hstlity}
+              </li>
             ))}
           </ul>
         </div>

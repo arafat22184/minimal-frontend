@@ -10,8 +10,8 @@ const TravelingParty = ({ travelingParty }) => {
       <hr />
       {/* Details */}
       <div className="space-y-7 mt-6">
-        {travelingParty.map((party) => (
-          <div className="space-y-3">
+        {travelingParty.map((party, i) => (
+          <div key={i} className="space-y-3">
             {/* Name */}
             <div className="flex items-center gap-2 text-[#637381] font-medium">
               <EventDetailsBlueProfileSVG />

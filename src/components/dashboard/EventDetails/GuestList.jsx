@@ -11,7 +11,10 @@ const GuestList = ({ guestList }) => {
       {/* Details */}
       <div className="space-y-6 mt-6">
         {guestList.map((guest) => (
-          <div className="flex items-center justify-between">
+          <div
+            key={guest.contactNumber}
+            className="flex items-center justify-between"
+          >
             {/* Name */}
             <div className="flex items-center gap-2 text-[#637381] font-medium">
               <EventDetailsBlueProfileSVG />

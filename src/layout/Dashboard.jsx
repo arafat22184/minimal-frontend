@@ -1,5 +1,4 @@
 import React from "react";
-import "../ScrollBarHidden.css";
 import { Outlet } from "react-router";
 import { Sidebar } from "../components/dashboard/Sidebar";
 import DashboardHeader from "../components/dashboard/DashboardHeader";
