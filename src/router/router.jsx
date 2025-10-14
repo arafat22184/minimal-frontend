@@ -4,6 +4,7 @@ import EventDetails from "../pages/dashboard/EventDetails";
 import Dashboard from "../layout/Dashboard";
 import AiAssistant from "../pages/dashboard/AiAssistant";
 import Profile from "../pages/dashboard/Profile";
+import SecoundDashboard from "../pages/dashboard/SecoundDashboard";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
         index: true,
         Component: Events,
         loader: () => fetch("/events.json"),
+      },
+      {
+        path: "/dashboard",
+        Component: SecoundDashboard,
       },
       {
         path: "/event/:id",
