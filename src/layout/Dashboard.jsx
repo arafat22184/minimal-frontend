@@ -5,7 +5,7 @@ import DashboardHeader from "../components/dashboard/DashboardHeader";
 
 const Dashboard = () => {
   return (
-    <div className="flex">
+    <div className="flex h-screen">
       <div className="max-w-[280px]">
         <Sidebar />
       </div>
