@@ -41,6 +41,28 @@ const Profile = () => {
     });
   };
 
+  const handleProfileDelete = () => {
+    Swal.fire({
+      title: "Delete Account",
+      text: "Are you sure you want to permanently delete your account? This action cannot be undone!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#d33",
+      cancelButtonColor: "#3085d6",
+      confirmButtonText: "Yes, Delete",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        Swal.fire({
+          title: "Deleted!",
+          text: "Your account has been successfully deleted.",
+          icon: "success",
+        });
+
+        navigate("/");
+      }
+    });
+  };
+
   return (
     <div className="mt-[38px] ml-4">
       {/* Basic Details */}
@@ -145,7 +167,10 @@ const Profile = () => {
         </button>
 
         {/* Delete Account button */}
-        <button className="flex items-center justify-between w-full px-6 py-4.5 border border-[#DFE3E8] rounded-[12px] hover:bg-red-500 hover:text-white cursor-pointer">
+        <button
+          onClick={handleProfileDelete}
+          className="flex items-center justify-between w-full px-6 py-4.5 border border-[#DFE3E8] rounded-[12px] hover:bg-red-500 hover:text-white cursor-pointer"
+        >
           <span>Delete Account</span>
           <ProfileArrowButtonSVG />
         </button>
