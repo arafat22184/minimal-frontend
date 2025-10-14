@@ -5,6 +5,8 @@ import {
   CelebrationSVG,
   ArtistGroupSVG,
 } from "../../components/SVG/DashboardSvg/CartCardSVG";
+import EventList from "../../components/dashboard/EventList";
+import EventCalender from "../../components/dashboard/EventCalender";
 
 const SecoundDashboard = () => {
   const chartData = [
@@ -49,6 +51,12 @@ const SecoundDashboard = () => {
         {chartData.map((data) => (
           <ChartCard key={data.id} data={data} />
         ))}
+      </div>
+
+      {/* Event List And Date */}
+      <div className="grid grid-cols-4 gap-5">
+        <EventList />
+        <EventCalender />
       </div>
     </div>
   );

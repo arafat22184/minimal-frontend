@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  ArtistGroupSVG,
   ChartDecreaseSVG,
   ChartDownSVG,
   ChartGrowthSVG,

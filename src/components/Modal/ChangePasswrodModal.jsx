@@ -125,7 +125,7 @@ const ChangePasswrodModal = ({ setOpenModal }) => {
         className="w-[816px] rounded-2xl p-8 bg-white space-y-6"
       >
         {/* Current Password */}
-        <div className="flex flex-col w-full gap-2">
+        <fieldset className="flex flex-col w-full gap-2">
           <label
             className="text-[#637381] font-medium"
             htmlFor="Current password"
@@ -138,7 +138,7 @@ const ChangePasswrodModal = ({ setOpenModal }) => {
             placeholder="Enter Current Password"
             name="currentPass"
           />
-        </div>
+        </fieldset>
 
         {/* New Password */}
         <div className="flex flex-col w-full gap-2">
