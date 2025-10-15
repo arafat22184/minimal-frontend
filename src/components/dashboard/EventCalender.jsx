@@ -134,14 +134,14 @@ const EventCalender = () => {
         />
       </div>
 
-      <div className="mt-4">
-        <h3 className="font-semibold text-lg">Events in Selected Range:</h3>
-        {filteredEvents.length === 0 && <p>No events found.</p>}
-        <div>
-          {filteredEvents.map((event) => (
-            <FilteredEvent key={event.eventId} event={event}></FilteredEvent>
-          ))}
-        </div>
+      <div className="space-y-[28px] mt-7">
+        {filteredEvents.map((event, i) => (
+          <FilteredEvent
+            key={event.eventId}
+            i={i}
+            event={event}
+          ></FilteredEvent>
+        ))}
       </div>
     </div>
   );

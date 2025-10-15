@@ -12,25 +12,25 @@ const EventEditSVG = () => {
       <path
         d="M8.16479 12.6286H12.9999"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M7.52001 1.52986C8.0371 0.911858 8.96666 0.821237 9.59748 1.32782C9.63236 1.35531 10.753 2.22586 10.753 2.22586C11.446 2.64479 11.6613 3.5354 11.2329 4.21506C11.2102 4.25146 4.87463 12.1763 4.87463 12.1763C4.66385 12.4393 4.34389 12.5945 4.00194 12.5982L1.57569 12.6287L1.02902 10.3149C0.952442 9.98953 1.02902 9.64785 1.2398 9.3849L7.52001 1.52986Z"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M6.34692 3.00061L9.98175 5.79203"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
