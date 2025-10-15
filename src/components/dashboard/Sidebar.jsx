@@ -50,6 +50,17 @@ export const Sidebar = () => {
           <ProfileSVG></ProfileSVG>
           Profile
         </NavLink>
+        <NavLink
+          to="/dashboard"
+          className={({ isActive }) =>
+            `${navLinkStyle} ${
+              isActive ? "bg-[#3F97FF] text-white" : "text-[#637381]"
+            }`
+          }
+        >
+          <HomeIconSVG />
+          Dashboard-2
+        </NavLink>
       </div>
     </div>
   );
